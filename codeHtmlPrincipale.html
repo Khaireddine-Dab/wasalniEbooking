@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wasalni</title>
+    <link rel="stylesheet" href="cssTest.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="jsCode.js">
+
+</head>
+<body>
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="images/appLogo-removebg-preview.png">
+            <i class="bi bi-car-front me-2"></i>
+            wasalni Ebooking
+        </a>
+      
+      <!-- Hamburger button for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="codeHtmlPrincipale.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mesReservations.php">Mes Réservations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.php">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="privacy.php">Privacy</a>
+          </li>
+        </ul>
+        
+        <!-- User menu and buttons -->
+        <div class="d-flex align-items-center gap-2">
+          <!-- User dropdown -->
+          <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" 
+                    id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person"></i> Mon Profil
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item" href="monProfile.php">Mon Profil</a></li>
+              <li><a class="dropdown-item" href="mesReservations.php">Mes Réservations</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="logout.php">Déconnexion</a></li>
+            </ul>
+          </div>
+        </div>
+          
+          <!-- Login button -->
+          <a href="logIn.php" class="btn btn-outline-danger">
+            <i class="bi bi-box-arrow-in-right"></i> LogIn
+          </a>
+          
+          <!-- Reserve button -->
+          <a href="reservation.php" class="btn btn-danger ms-2">Réserver</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+<div id="A3">
+<h1>Get Your Ticket Online,Easy and Safely</h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class ="shape">
+    <img id ="A5" src="images/movedCar.jpg" alt="bg">
+
+</div>
+
+
+</button>
+</div>
+
+<div class="hstack">
+  <div class="p-2">
+      <div class="icon-container">
+          <span class="icon-badge">01</span>
+          <img src="images/searchLogo-removebg-preview.png" alt="Search Icon"> 
+      </div>
+      <h4>Search Your Bus</h4>
+      <p>Choose your origin, destination, Just choose a Bus journey date and search for buses.</p>
+  </div>
+
+  <div class="p-2">
+      <div class="icon-container">
+          <span class="icon-badge">02</span>
+          <img src="images/ticketLogo-removebg-preview.png" alt="Ticket Icon"> 
+      </div>
+      <h4>Choose The Ticket</h4>
+      <p>Choose your origin, destination, Just a Bus for your great journey dates and search for buses.</p>
+  </div>
+
+  <div class="p-2">
+      <div class="icon-container">
+          <span class="icon-badge">03</span>
+          <img src="images/payLogo-removebg-preview.png" alt="Payment Icon"> 
+      </div>
+      <h4>Pay Bill</h4>
+      <p>Choose your origin, destination, choose a Bus for your great journey dates and search for buses.</p>
+  </div>
+</div>
+
+
+    <!-- Info Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6 mb-4 mb-lg-0">
+                  <h2 class="fw-bold mb-4">Comment fonctionne le système de louages?</h2>
+                  <div class="accordion" id="louageAccordion">
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Qu'est-ce qu'un louage?
+                              </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#louageAccordion">
+                              <div class="accordion-body">
+                                  Un louage est un moyen de transport collectif en Tunisie. C'est généralement une voiture ou un minibus qui relie les villes tunisiennes. Les louages sont reconnaissables à leur couleur blanche avec une bande de couleur sur le côté indiquant leur itinéraire.
+                              </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Comment fonctionne la réservation?
+                              </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#louageAccordion">
+                              <div class="accordion-body">
+                                  Traditionnellement, les louages partent quand ils sont pleins. Avec notre service, vous pouvez réserver votre place à l'avance et être assuré d'avoir une place. Vous recevrez une confirmation par SMS et email.
+                              </div>
+                          </div>
+                      </div>
+                      <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Où se trouvent les stations de louage?
+                              </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#louageAccordion">
+                              <div class="accordion-body">
+                                  Chaque ville tunisienne possède une ou plusieurs stations de louage. À Tunis, il y a plusieurs stations selon la destination (Sud, Nord, etc.). Notre application vous indique l'emplacement exact de la station de départ.
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Pourquoi Choisir LouageTN?</h2>
+            <p class="lead text-muted">Nous offrons la meilleure expérience de réservation de louages en Tunisie</p>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <div class="card-body">
+                        <i class="bi bi-ticket-perforated text-primary" style="font-size: 3rem;"></i>
+                        <h4 class="mt-4">Réservation Facile</h4>
+                        <p class="text-muted">Réservez votre place en quelques clics sans tracas ni attente aux stations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <div class="card-body">
+                        <i class="bi bi-shield-check text-primary" style="font-size: 3rem;"></i>
+                        <h4 class="mt-4">Paiements Sécurisés</h4>
+                        <p class="text-muted">Vos informations de paiement sont toujours sécurisées avec nos passerelles de paiement fiables.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 text-center p-4">
+                    <div class="card-body">
+                        <i class="bi bi-headset text-primary" style="font-size: 3rem;"></i>
+                        <h4 class="mt-4">Support Client 24/7</h4>
+                        <p class="text-muted">Notre équipe de support client est disponible à tout moment pour vous aider.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <section class="py-5 bg-primary text-white">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h2 class="fw-bold"> SOYEZ PRETS TELECHARGER NOTRE APPLICATION MOBILE À TRES BIENTOT</h2>
+                <p class="lead">Obtenez des offres exclusives et réservez vos louages en déplacement avec notre application mobile</p>
+                <div class="d-flex flex-wrap gap-2 mt-4">
+                    <a href="#" class="btn btn-light px-4 py-2">
+                        <i class="bi bi-apple me-2"></i>App Store
+                    </a>
+                    <a href="#" class="btn btn-light px-4 py-2">
+                        <i class="bi bi-google-play me-2"></i>Google Play
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="images/appLogo-removebg-preview.png" alt="Application Mobile" class="img-fluid" style="max-height: 400px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer py-5 bg-dark text-white">  <div class="container">
+      <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+              <h5 class="mb-4"><i class="bi bi-car-front me-2"></i>wasalni Ebooking TN</h5>
+              <p>wasalni EBooking TN est la principale plateforme de réservation de louages en ligne offrant des services de réservation pratiques et sans tracas à des millions de voyageurs en Tunisie.</p>
+              <div class="d-flex gap-3 mt-4">
+                  <a href="#" class="text-white"><i class="bi bi-facebook fs-5"></i></a>
+                  <a href="#" class="text-white"><i class="bi bi-twitter fs-5"></i></a>
+                  <a href="#" class="text-white"><i class="bi bi-instagram fs-5"></i></a>
+                  <a href="#" class="text-white"><i class="bi bi-linkedin fs-5"></i></a>
+              </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+              <h5 class="mb-4">Liens Rapides</h5>
+              <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#" class="text-white text-decoration-none">À Propos</a></li>
+                  <li class="mb-2"><a href="contact.html" class="text-white text-decoration-none">Contactez-nous</a></li>
+                  <li class="mb-2"><a href="privacy.html" class="text-white text-decoration-none">Conditions d'utilisation</a></li>
+                  <li class="mb-2"><a href="privacy.html" class="text-white text-decoration-none">Politique de confidentialité</a></li>
+                  <li class="mb-2"><a href="privacy.html" class="text-white text-decoration-none">Politique de remboursement</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-2 col-md-6">
+              <h5 class="mb-4">Itinéraires Populaires</h5>
+              <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#" class="text-white text-decoration-none">Tunis - Sousse</a></li>
+                  <li class="mb-2"><a href="#" class="text-white text-decoration-none">Tunis - Sfax</a></li>
+                  <li class="mb-2"><a href="#" class="text-white text-decoration-none">Tunis - Hammamet</a></li>
+                  <li class="mb-2"><a href="#" class="text-white text-decoration-none">Sousse - Sfax</a></li>
+                  <li class="mb-2"><a href="#" class="text-white text-decoration-none">Tunis - Monastir</a></li>
+              </ul>
+          </div>
+          <div class="col-lg-4 col-md-6">
+              <h5 class="mb-4">Contactez-nous</h5>
+              <ul class="list-unstyled">
+                  <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>TUNISIA MEDNINE DJERBA</li>
+                  <li class="mb-2"><i class="bi bi-telephone me-2"></i>+216 93 249 073</li>
+                  <li class="mb-2"><i class="bi bi-envelope me-2"></i>contact@wasalniEbooking.com</li>
+              </ul>
+              <div class="mt-4">
+                  <h6>Abonnez-vous à notre Newsletter</h6>
+                  <div class="input-group mt-2">
+                      <input type="email" class="form-control" placeholder="Votre adresse email">
+                      <button class="btn btn-light" type="button">S'abonner</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <hr class="my-4 bg-light">
+      <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+              <p class="mb-0">&copy; 2025 wasalni Ebooking TN. Tous droits réservés.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+              <p class="mb-0">
+                  <i class="bi bi-credit-card me-2"></i>Nous acceptons toutes les principales cartes de crédit
+              </p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jsCode.js"></script>
+
+   
+</body>
+</html>
